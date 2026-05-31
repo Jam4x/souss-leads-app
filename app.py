@@ -31,12 +31,36 @@ def sniper_emails(url):
 
 # --- 3. L'ACTION ---
 # Liste de prospection de démonstration
+# --- 3. L'ACTION ---
+# Liste des 20 agences cibles pour la prospection de Lundi
 donnees_initiales = {
-    "Nom de l'entreprise": ["Wikipédia (Test)", "Harvard Math", "Site Inconnu"],
+    "Nom de l'entreprise": [
+        "Ajicod", "General Webers", "Web Assistances", "Media Dialna", "Fastboost Agency",
+        "Technopek", "Viix Digital", "Mediaman", "Media Pulse", "Major Media",
+        "Proweb", "Tweadup", "Ejahiz", "Coding Art", "Dev Maroc Web",
+        "Web Linking", "Winu Maroc", "Développeur Informatique MA", "Aassou", "Energie Din"
+    ],
     "Site Web": [
-        "https://fr.wikipedia.org/wiki/Adresse_électronique", 
-        "https://www.math.harvard.edu/contact/",
-        "https://www.ce-site-n-existe-pas-12345.com"
+        "https://ajicod.com/fr",
+        "https://generalwebers.com/",
+        "https://www.webassistances.com/",
+        "https://mediadialna.ma/",
+        "https://fastboost.agency/",
+        "https://technopek.ma/",
+        "https://viixdigital.com/",
+        "https://www.mediaman.ma/",
+        "https://mediapulse.ma/contactez-nous/",
+        "https://majormedia.marketing/",
+        "https://www.proweb.ma/",
+        "https://tweadup.com/",
+        "https://caisse.ejahiz.ma/",
+        "https://www.codingart.io/",
+        "https://devmarocweb.com/",
+        "https://www.weblinking.net/",
+        "https://winumaroc.com/",
+        "https://www.developpeur-informatique.ma/",
+        "https://aassou.net/",
+        "https://www.energiedin.com/?utm_source=mybusiness-agadir"
     ]
 }
 df_agences = pd.DataFrame(donnees_initiales)
